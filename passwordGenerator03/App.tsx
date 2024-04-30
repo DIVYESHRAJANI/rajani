@@ -1,4 +1,4 @@
-import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View, Keyboard } from 'react-native'
 import React, { useState } from 'react'
 
 import BouncyCheckbox from "react-native-bouncy-checkbox";
@@ -101,7 +101,7 @@ export default function App() {
          <View style={styles.inputWrapper}>
           <View style={styles.inputColumn}>
             <Text style={styles.heading}>Password Length</Text>
-            {touched.passwordLength && errors.passwordLength && (
+            {errors.passwordLength && (
               <Text style={styles.errorText}>
                 {errors.passwordLength}
               </Text>
@@ -156,7 +156,10 @@ export default function App() {
           <TouchableOpacity
           disabled={!isValid}
           style={styles.primaryBtn}
-          onPress={handleSubmit}
+          onPress={ () => {
+            handleSubmit();
+            Keyboard.dismiss();
+          }}
           >
             <Text style={styles.primaryBtnTxt}>Generate Password</Text>
           </TouchableOpacity>
@@ -228,6 +231,7 @@ const styles = StyleSheet.create({
     borderColor: '#16213e',
   },
   errorText: {
+    width: 200,
     fontSize: 12,
     color: '#ff0d10',
   },
