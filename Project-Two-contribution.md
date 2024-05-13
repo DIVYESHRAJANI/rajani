@@ -11,3 +11,8 @@ Moeen Ul Islam
 2. [A comprehensive guide to flexbox with code snippets](https://moeen.hashnode.dev/flex-your-layouts-a-comprehensive-guide-to-flexbox-in-react-native-with-code-snippets)
 
 ---
+
+# For color highliting
+use [react-native-stylesheet-color-palette](https://marketplace.visualstudio.com/items?itemName=RajD.react-native-stylesheet-color-palette)
+
+
