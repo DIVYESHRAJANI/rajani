@@ -1,4 +1,4 @@
-## Must Read Guide till project one
+![image](https://github.com/hiteshchoudhary/React-native-projects/assets/130833600/2301b2fe-0d40-4552-b6b6-ef63d7d00f07)![image](https://github.com/hiteshchoudhary/React-native-projects/assets/130833600/4e5e2e0b-8d83-471c-b03c-83106aad3abd)## Must Read Guide till project one
 
 Submit your articles here via a Pull Request. Make sure your article is on Hashnode and should add a value. Don't make PR just for the sake for making it.
 
@@ -57,3 +57,6 @@ Submit your articles here via a Pull Request. Make sure your article is on Hashn
 1. [Linux Devs Rejoice: A Comprehensive Guide to Setting Up Your React Native Development Environment](https://pratik280.hashnode.dev/linux-devs-rejoice-a-comprehensive-guide-to-setting-up-your-react-native-development-environment)
 
 ---
+
+--- Aman Shrivastav
+1. [Error On: Setting React Native On Window](https://amanshri.hashnode.dev/error-on-setting-react-native-on-windows)
