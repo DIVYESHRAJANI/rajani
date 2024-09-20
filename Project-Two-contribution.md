@@ -11,3 +11,6 @@ Moeen Ul Islam
 2. [A comprehensive guide to flexbox with code snippets](https://moeen.hashnode.dev/flex-your-layouts-a-comprehensive-guide-to-flexbox-in-react-native-with-code-snippets)
 
 ---
+
+Subham singh Rawat
+1.[Adding custom fonts in React-native app](https://subham123.hashnode.dev/adding-custom-fonts-in-react-native)
