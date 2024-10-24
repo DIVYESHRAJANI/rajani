@@ -36,10 +36,14 @@ const ControlCenter = () => {
         <Pressable onPress={skipToPrevious}>
             <Icon style={styles.icon} name="skip-previous" size={40} />
         </Pressable>
-        <Pressable onPress={() => togglePlayback(playBackState)}>
+        <Pressable onPress={()=>{
+          if(playBackState.state !== undefined){
+            togglePlayback(playBackState.state)
+          }
+        } >
             <Icon 
             style={styles.icon} 
-            name={playBackState === State.Playing ? "pause" : "play-arrow"} 
+            name={playBackState.state === State.Playing ? "pause" : "play-arrow"} 
             size={75} />
         </Pressable>
         <Pressable onPress={skipToNext}>
